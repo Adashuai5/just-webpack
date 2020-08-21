@@ -1,8 +1,4 @@
-import Webpack from './lib/webpack'
-import webpackConfig from './webpack.config'
+const Webpack = require('./lib/webpack')
+const webpackConfig = require('./webpack.config')
 
-const webpack = new Webpack()
-
-const exports = webpack(webpackConfig).run()
-
-console.log(exports)
+new Webpack(webpackConfig).run()
