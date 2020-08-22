@@ -1,7 +1,7 @@
 {
   "name": "just-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple webpack",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Adashuai5/just-webpack/issues"
   },
-  "homepage": "https://github.com/Adashuai5/just-webpack#readme"
+  "homepage": "https://github.com/Adashuai5/just-webpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/parser": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/traverse": "^7.11.0"
+  }
 }
