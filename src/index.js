@@ -1,4 +1,4 @@
-import { add, minus } from './helper'
+import { add, minus } from './helper.js'
 
 const a = 2
 const b = 1
